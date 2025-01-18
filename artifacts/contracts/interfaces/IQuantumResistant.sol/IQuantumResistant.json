@@ -1,0 +1,138 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IQuantumResistant",
+  "sourceName": "contracts/interfaces/IQuantumResistant.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "message",
+          "type": "bytes32"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256[]",
+              "name": "matrix",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "seed",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct IQuantumResistant.PublicKey",
+          "name": "publicKey",
+          "type": "tuple"
+        }
+      ],
+      "name": "encrypt",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256[]",
+              "name": "u",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "v",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct IQuantumResistant.Ciphertext",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "seed",
+          "type": "uint256"
+        }
+      ],
+      "name": "generatePublicKey",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256[]",
+              "name": "matrix",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "seed",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct IQuantumResistant.PublicKey",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256[]",
+              "name": "u",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "v",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct IQuantumResistant.Ciphertext",
+          "name": "ciphertext",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256[]",
+              "name": "matrix",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "seed",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct IQuantumResistant.PublicKey",
+          "name": "publicKey",
+          "type": "tuple"
+        }
+      ],
+      "name": "verifyIntegrity",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

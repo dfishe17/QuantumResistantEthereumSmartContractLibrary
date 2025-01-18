@@ -1,0 +1,150 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/runner/workspace/contracts/QuantumResistant.sol": {
+      "lastModificationDate": 1737208502921,
+      "contentHash": "9442eca8f0701dd78f2cdbdbf7595e75",
+      "sourceName": "contracts/QuantumResistant.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IQuantumResistant.sol",
+        "./libraries/KyberMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "QuantumResistant"
+      ]
+    },
+    "/home/runner/workspace/contracts/interfaces/IQuantumResistant.sol": {
+      "lastModificationDate": 1737208483698,
+      "contentHash": "6a9439e96181ada688a0735854f0d52f",
+      "sourceName": "contracts/interfaces/IQuantumResistant.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IQuantumResistant"
+      ]
+    },
+    "/home/runner/workspace/contracts/libraries/KyberMath.sol": {
+      "lastModificationDate": 1737208490910,
+      "contentHash": "5189897520b43d959171d98fd4707bdd",
+      "sourceName": "contracts/libraries/KyberMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "KyberMath"
+      ]
+    },
+    "/home/runner/workspace/contracts/test/QuantumResistantTest.sol": {
+      "lastModificationDate": 1737208506921,
+      "contentHash": "56af7567af09a9c18bc77662a62e7170",
+      "sourceName": "contracts/test/QuantumResistantTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../QuantumResistant.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "QuantumResistantTest"
+      ]
+    }
+  }
+}
