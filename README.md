@@ -84,3 +84,31 @@ npx hardhat test
 ## License
 
 MIT
+
+For Jetpack usage: 
+
+Jetpack Installation:
+
+Add the library to jetpack.json with "@replit/quantum-resistant-solidity": "^1.0.0"
+
+Run jetpack install
+
+Easy Smart Contract Integration:
+
+Direct import: import "@replit/quantum-resistant-solidity/contracts/QuantumResistant.sol"
+
+Basic usage shown in QuantumResistantExample.sol
+
+Advanced patterns in SecureStorage.sol and QuantumVoting.sol
+
+Example Integration Methods:
+
+Basic encryption functions
+
+Key management systems
+
+Integration with OpenZeppelin contracts
+
+Complete secure messaging implementation
+
+Would you like me to explain any specific integration pattern in more detail or show you how to implement a particular quantum-resistant feature?
