@@ -1,7 +1,5 @@
 # Quantum Resistant Ethereum Smart Contract Library
 
-# Quantum-Resistant Cryptography for Ethereum Smart Contracts
-
 This library implements quantum-resistant cryptography suitable for Ethereum smart contracts, based on lattice-based cryptography principles.
 
 ## Installation
